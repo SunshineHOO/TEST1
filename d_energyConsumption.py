@@ -1,6 +1,7 @@
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+###################baizeweiyu修改#########################
 
 #plt.rcParams['font.sans-serif']=['SimHei'] # 解决中文乱码
 
@@ -21,7 +22,7 @@ rects3 = ax.bar(x + width+0.02, e_100, width, label='100(2*wr)', color="#A5A5A5"
 plt.ylim(0, 80000)
 #plt.xticks([200, 400, 600, 800])
 #plt.xlim(100, 900)
-
+#
 # 为y轴、标题和x轴等添加一些文本。
 ax.set_ylabel('Energy consumption (*$10^3$nJ)', fontsize=16)
 ax.set_xlabel('Distance from Source to Sink (m)', fontsize=16)
